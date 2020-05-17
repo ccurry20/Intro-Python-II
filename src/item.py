@@ -1,15 +1,8 @@
 class Item:
-    def __init__(self, name, description):
+    def __init__(self, name, descrip):
         self.name = name
-        self.description = description
-
-
-item = Item("Carmen", "bread")
+        self.descrip = descrip
 
 
 def _str_(self):
-    return f'{self.name}, {self.description}'
-
-
-print(item.name)
-print(item.description)
+    return f'{self.name}, {self.descrip}'
